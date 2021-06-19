@@ -29,15 +29,22 @@ public class Main {
 //                System.out.println("a to się zawsze uruchomi -default");
 //        }
 
-        for (int i = 0; i <= 5; i++) {
-            System.out.println("wyświetlam indeks i : "+ i);
-        }
+//        for (int i = 0; i <= 5; i++) {
+//            System.out.println("wyświetlam indeks i : "+ i);
+//        }
+//
+//        for (int j = 1; 7 < 16; j++) {
+//            if (j == 7) {
+//                break;
+//            }
+//            System.out.println("wyświetlam indeks j :"+ j);
+//        }
 
-        for (int j = 1; 7 < 16; j++) {
-            if (j == 7) {
-                break;
-            }
-            System.out.println("wyświetlam indeks j :"+ j);
+        int[] tablica = { 2,4,6,8,10 };
+//        System.out.println(tablica[2]);
+
+        for (int i = 0; i< tablica.length; i++) {
+            System.out.println(tablica[i]);
         }
 
 
